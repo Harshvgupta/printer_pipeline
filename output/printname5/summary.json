@@ -1,0 +1,34 @@
+{
+  "printName": "printname5",
+  "mode": "supervised",
+  "statistics": {
+    "totalLayers": 295,
+    "successfulLayers": 291,
+    "failedLayers": 4,
+    "averages": {
+      "layerHeight": 0.200001,
+      "printSpeed": 50,
+      "extrusionTemp": 210,
+      "infillDensity": 20,
+      "shellThickness": 2,
+      "overhangAngle": 45,
+      "coolingFanSpeed": 50,
+      "zOffset": 0.0500001,
+      "bedTemp": 60
+    },
+    "errorTypes": [
+      {"type": "SUCCESS", "count": 291},
+      {"type": "TEMP_OUT_OF_RANGE", "count": 3},
+      {"type": "TIMED_OUT", "count": 1}
+    ],
+    "materials": [
+      {"type": "PLA", "count": 295}
+    ],
+    "infillPatterns": [
+      {"pattern": "Grid", "count": 295}
+    ],
+    "layerAdhesion": [
+      {"type": "Good", "count": 295}
+    ]
+  }
+}
