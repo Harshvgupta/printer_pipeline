@@ -33,6 +33,23 @@ Use the following commands to build the executable:
 ```bash
 cmake ..
 cmake --build .
+```
+---
+## Running the Program
 
-## Run command
-.\bin\Debug\<executbale_name>.exe <printer job name> <output folder name> <supervised or automatic>
+To execute the compiled program, use the following example command:
+
+```bash
+.\bin\Debug\formlabs.exe "printname5" "output" supervised
+Arguments:
+"printname5": Specifies the name of the input or operation.
+"output": Specifies the output file or folder.
+supervised: Specifies the mode or configuration for the program.
+```
+---
+## Libraries Used
+The project utilizes the following libraries:
+
+HTML: Used to display a graphical user interface (GUI) for better visualization of the code’s output.
+JSON: Employed for handling data efficiently in a structured and hierarchical format.
+These libraries are crucial for the functionality and data representation within the project.
