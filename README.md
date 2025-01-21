@@ -14,7 +14,7 @@ The repository contains the source code, build files, and a working executable t
 2. [Build Commands](#build-commands)  
 3. [Running the Program](#running-the-program)  
 4. [Libraries Used](#libraries-used)  
-5. [Attachments](#attachments)  
+
 
 ---
 
